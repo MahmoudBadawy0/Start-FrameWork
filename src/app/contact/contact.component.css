@@ -1,0 +1,37 @@
+.home {
+  margin-top: 90px;
+}
+
+.con-clr {
+  color: rgb(44, 62, 80);
+}
+
+.line {
+  height: 4px;
+  width: 90px;
+  background-color: rgb(44, 62, 80);
+}
+
+.form-control {
+  box-shadow: none;
+}
+
+.term {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+label {
+  color: #1abc9c;
+  margin-bottom: 7px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translateY(100%);
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+input:not(:placeholder-shown) + label {
+  transform: translateY(-20px);
+  opacity: 1;
+}
