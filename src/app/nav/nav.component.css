@@ -1,8 +1,9 @@
-.navbar{
+.navbar {
   background-color: #2c3e50 !important;
+  transition: all 0.5s;
 }
 
-.r-active{
-  background-color:#1abc9c ;
+.r-active {
+  background-color: #1abc9c;
   border-radius: 10px;
 }

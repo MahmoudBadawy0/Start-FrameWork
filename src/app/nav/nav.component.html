@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light py-3 fixed-top">
+<nav [class.py-4]="scroll" class="navbar navbar-expand-sm navbar-light bg-light py-2 fixed-top">
   <div class="container">
     <a class="navbar-brand fs-2 text-white fw-bold" routerLink="/Home">START FRAMEWORK </a>
     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
@@ -8,13 +8,13 @@
     <div class="collapse navbar-collapse " id="collapsibleNavId">
       <ul class="navbar-nav ms-auto mt-2 mt-lg-0 text-uppercase">
         <li class="nav-item">
-          <a class="nav-link text-white fw-semibold" routerLink="/About" routerLinkActive="r-active" >About</a>
+          <a class="nav-link text-white fw-semibold" routerLink="/About" routerLinkActive="r-active">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white fw-semibold" routerLink="/Portfolio" routerLinkActive="r-active" >Portfolio</a>
+          <a class="nav-link text-white fw-semibold" routerLink="/Portfolio" routerLinkActive="r-active">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white fw-semibold" routerLink="/Contact" routerLinkActive="r-active" >Contact</a>
+          <a class="nav-link text-white fw-semibold" routerLink="/Contact" routerLinkActive="r-active">Contact</a>
         </li>
       </ul>
     </div>
